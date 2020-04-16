@@ -55,6 +55,8 @@ name            service   plan    bound apps   last operation
 first-push-db   mysql     free                create succeeded
 ```
 
+> NOTE: You may also see the last operation marked as `create in progress`. This simply means the service instance is still being created. You can re-run `cf services` a few times until the instance has the `create succeeded` status.
+
 ### Okay, so what happened now?
 
 Behind each service in the marketplace is a service broker (a broker can provide multiple services). Service brokers encapsulate the complexity of provisioning and interacting with different services using a standard API, the [Open Service Broker API](https://www.openservicebrokerapi.org/). The marketplace is populated when Cloud Foundry invokes the broker to find out what services it is offering. Those offerings include one or more plans which detail service levels or tiers of service. When you issued the `create-service` command, Cloud Foundry made a call to the broker to provision a database instance according to the plan.
