@@ -11,7 +11,7 @@ You need a Cloud Foundry instance to use. If your company has a Cloud Foundry in
 - [cloud.gov](https://cloud.gov) (US Government only)
 - [IBM Cloud](https://cloud.ibm.com)
 - [Pivotal Web Services](https://run.pivotal.io)
-- [SUSE] (https://www.explore.suse.dev/suse-cap-developer-sandbox/)
+- [SUSE](https://www.explore.suse.dev/suse-cap-developer-sandbox/)
 - [Swisscom](https://developer.swisscom.com)
 
 Once you have an account, it's time to install the CLI.  
