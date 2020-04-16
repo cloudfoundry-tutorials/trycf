@@ -40,7 +40,7 @@ memory usage:   64M
 #1   running   2020-03-31T18:34:46Z   0.3%   9.5M of 64M    14.6M of 1G 
 ```
 
-If you refresh your app in a browser multiple times, you will see the `App Instance Index` change. Cloud Foundry is load balancing your requests across both instances.
+If you refresh your app in a browser multiple times, you will see the `App Instance Index` change (once the new instance has fully started and is available). Cloud Foundry is load balancing your requests across both instances.
 
 ### What happened?
 
