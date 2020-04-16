@@ -19,13 +19,17 @@ Let's break it down.
 | cloud.gov		          | https://api.fr.cloud.gov             					 	|
 | IBM Cloud    					| *varies. see https://console.bluemix.net/docs/*	|
 | Pivotal Web Services  | https://api.run.pivotal.io                 			|
+| SUSE                  | https://api.cap.explore.suse.dev                |
 | Swisscom              | https://api.lyra-836.appcloud.swisscom.com 			|
 
 * The `-u` flag allows you to specify your username for that Cloud Foundry instance. You can leave this flag off and the CLI will prompt you for your username.
 
 * We purposely did not use the `-p` flag to provide your password in a single command. This flag exists but is intended for automation. Providing the password via a flag with the login command means your password will be in clear text in the terminal history. Therefore, it is better to only use `-p` for CI/CD systems and leave it off when using Cloud Foundry manually.
 
+* Depending on the provider you are using, you may be prompted to select an `Org` and/or `Space`. You can select any which you have access to.
+
 > Note: You can use `cf login --help` for details on all of the available flags you can specify.
+
 
 #### Checking your work
 
@@ -39,8 +43,8 @@ Targeted org cloudfoundry-training
 
 Targeted space development
 
-API endpoint:   https://api.run.pivotal.io (API version: 2.103.0)
-User:           sgreenberg@rscale.io
+API endpoint:   https://<provider-api-endpoint>
+User:           steve@example.com
 Org:            cloudfoundry-training
 Space:          development
 ```

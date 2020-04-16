@@ -16,7 +16,7 @@ The CLI, or Command Line Interface, is the tool you will use to interact with Cl
   And you will see output similar to:
 
   ```
-  cf version 6.43.0+815ea2f3d.2019-02-20
+  cf version 6.50.0+4f0c3a2ce.2020-03-03
   ```
 
 The CLI is a self-documenting tool. For example, you can run:

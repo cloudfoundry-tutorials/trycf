@@ -14,7 +14,7 @@ Now that you have the application data moved to an external service, we can safe
   You should see output like:
 
   ```
-  Scaling app first-push in org cloudfoundry-training / space development as sgreenberg@rscale.io...
+  Scaling app first-push in org cloudfoundry-training / space development as steve@example.com...
   OK
   ```
 
@@ -23,12 +23,12 @@ Now that you have the application data moved to an external service, we can safe
 You can see the status of your app by running `cf app first-push`:
 
 ```
-Showing health and status for app first-push in org cff / space work as sgreenberg@rscale.io...
+Showing health and status for app first-push in org cff / space work as steve@example.com...
 
 name:              first-push
 requested state:   started
-routes:            first-push-responsible-roan.cfapps.io
-last uploaded:     Sun 31 Mar 11:47:05 MDT 2019
+routes:            first-push-responsible-roan.<some-domain>
+last uploaded:     Sun 31 Mar 11:47:05 MDT 2020
 stack:             cflinuxfs3
 buildpacks:        go
 
@@ -36,8 +36,8 @@ type:           web
 instances:      2/2
 memory usage:   64M
      state     since                  cpu    memory         disk          details
-#0   running   2019-03-31T18:30:42Z   0.2%   10.2M of 64M   14.6M of 1G   
-#1   running   2019-03-31T18:34:46Z   0.3%   9.5M of 64M    14.6M of 1G 
+#0   running   2020-03-31T18:30:42Z   0.2%   10.2M of 64M   14.6M of 1G   
+#1   running   2020-03-31T18:34:46Z   0.3%   9.5M of 64M    14.6M of 1G 
 ```
 
 If you refresh your app in a browser multiple times, you will see the `App Instance Index` change. Cloud Foundry is load balancing your requests across both instances.

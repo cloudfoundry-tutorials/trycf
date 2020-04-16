@@ -38,6 +38,7 @@ No problem. The Cloud Foundry marketplace is a collection of services that can b
 | cloud.gov             | aws-rds      | shared-mysql       |
 | IBM Cloud             | mysql        | *varies*           |
 | Pivotal Web Services  | cleardb      | spark              |
+| SUSE                  | mariadb      | 10-1-34            |
 | Swisscom              | mariadbent   | usage              |
 
 > Many of the service offerings above contain multiple plans. When possible, we highlighted the smallest (often free) plan.
@@ -47,11 +48,11 @@ No problem. The Cloud Foundry marketplace is a collection of services that can b
 You should be able to see a new service instance using `cf services`:
 
 ```
-Getting services in org cloudfoundry-training / space development as sgreenberg@rscale.io...
+Getting services in org cloudfoundry-training / space development as steve@example.com...
 OK
 
 name            service   plan    bound apps   last operation
-first-push-db   cleardb   spark                create succeeded
+first-push-db   mysql     free                create succeeded
 ```
 
 ### Okay, so what happened now?

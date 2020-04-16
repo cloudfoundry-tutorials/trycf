@@ -22,11 +22,11 @@ Now that you have a database instance, you need to tell your application about t
 If you re-run `cf services` you should see your app now bound to your database.
 
 ```
-Getting services in org cloudfoundry-training / space development as sgreenberg@rscale.io...
+Getting services in org cloudfoundry-training / space development as steve@example.com...
 OK
 
 name            service   plan    bound apps   last operation
-first-push-db   cleardb   spark   first-push   create succeeded
+first-push-db   mysql     free   first-push   create succeeded
 ```
 
 You can also refresh your app in the browser and should see it is now using the database (your service name and plan may vary).

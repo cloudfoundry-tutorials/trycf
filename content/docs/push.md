@@ -32,8 +32,8 @@ If everything is successful, you should see output for your running application:
 ```
 name:              first-push
 requested state:   started
-routes:            first-push-responsible-roan.cfapps.io
-last uploaded:     Sun 31 Mar 11:47:05 MDT 2019
+routes:            first-push-responsible-roan.<some-domain>
+last uploaded:     Sun 31 Mar 11:47:05 MDT 2020
 stack:             cflinuxfs3
 buildpacks:        go
 
@@ -42,7 +42,7 @@ instances:       1/1
 memory usage:    64M
 start command:   ./bin/training-app
      state     since                  cpu    memory     disk      details
-#0   running   2019-03-31T17:46:53Z   0.0%   0 of 64M   0 of 1G   
+#0   running   2020-03-31T17:46:53Z   0.0%   0 of 64M   0 of 1G   
 ```
 
 The application has a user interface that shows some details about the application. You can copy the url of your application labeled as a `route` above and open it in a browser.
