@@ -16,7 +16,7 @@ To see this happen, we can watch the logs. We haven't talked about logs yet, but
   You will see output similar to:
 
   ```
-  Retrieving logs for app first-push in org cloudfoundry-training / space development as sgreenberg@rscale.io...
+  Retrieving logs for app first-push in org cloudfoundry-training / space development as steve@example.com...
 
   ```
 
