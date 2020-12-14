@@ -37,7 +37,6 @@ No problem. The Cloud Foundry marketplace is a collection of services that can b
 | anynines              | a9s-mysql101 | mysql-single-small |
 | cloud.gov             | aws-rds      | shared-mysql       |
 | IBM Cloud             | mysql        | *varies*           |
-| Pivotal Web Services  | cleardb      | spark              |
 | SUSE                  | mariadb      | 10-1-34            |
 | Swisscom              | mariadbent   | usage              |
 

@@ -10,7 +10,6 @@ You need a Cloud Foundry instance to use. If your company has a Cloud Foundry in
 - [anynines](https://paas.anynines.com)
 - [cloud.gov](https://cloud.gov) (US Government only)
 - [IBM Cloud](https://cloud.ibm.com)
-- [Pivotal Web Services](https://run.pivotal.io)
 - [SUSE](https://www.explore.suse.dev/suse-cap-developer-sandbox/)
 - [SAP](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
 - [Swisscom](https://developer.swisscom.com)
