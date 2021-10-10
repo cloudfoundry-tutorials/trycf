@@ -57,6 +57,6 @@ Cloud Foundry took your app bits and used a [buildpack](https://buildpacks.io) t
 
 *And what didn't happen?*
 
-You didn't build an image with a tool like Docker (though Cloud Foundry supports Docker, too). You didn't install any runtimes or manipulate any file systems. You didn't manullay provision any resources like compute and storage. You didn't create and deploy a load balancer or reserve any ports. You didn't update routing tables or do any health checks. You just typed `cf push`. Pretty cool, right?
+You didn't build an image with a tool like Docker (though Cloud Foundry supports Docker, too). You didn't install any runtimes or manipulate any file systems. You didn't manually provision any resources like compute and storage. You didn't create and deploy a load balancer or reserve any ports. You didn't update routing tables or do any health checks. You just typed `cf push`. Pretty cool, right?
 
 Now that we have an app running, let's provision a database for it to use.
